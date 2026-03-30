@@ -42,27 +42,6 @@ This project is built using Python, PostgreSQL, MySQL, and optionally BigQuery f
 - **Libraries:** `mysql-connector-python`, `psycopg2-binary`, `PyYAML`, `pandas`
 - **Optional:** Google BigQuery for analytics
 
----
-
-## Project Structure
-
-etl_data_warehouse/
-├── config/
-│ ├── db_config.yaml # MySQL & PostgreSQL connection info
-│ └── stores_config.yaml # Store database credentials
-├── etl/
-│ ├── extract.py # Extract data from MySQL
-│ ├── transform.py # Transform data into unified schema
-│ ├── load.py # Load data into PostgreSQL
-│ └── etl_main.py # Main ETL orchestration
-├── analytics/
-│ ├── queries.sql # Predefined queries for metrics
-│ └── generate_reports.py # Python script to generate reports
-├── logs/
-│ └── etl.log # ETL run logs
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
 ## Setup Instructions
 
 ### 1. Clone the Repository
