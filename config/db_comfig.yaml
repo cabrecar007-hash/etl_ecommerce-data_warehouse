@@ -1,0 +1,12 @@
+mysql:
+  host: 'mysql-host'
+  port: 3306
+  user: 'username'
+  password: 'password'
+
+postgresql:
+  host: 'pg-host'
+  port: 5432
+  user: 'pg_user'
+  password: 'pg_password'
+  database: 'data_warehouse'

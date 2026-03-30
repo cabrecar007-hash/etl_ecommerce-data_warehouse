@@ -1,0 +1,7 @@
+stores:
+  - store_id: 1
+    name: "Store A"
+    db_name: "store_a_db"
+  - store_id: 2
+    name: "Store B"
+    db_name: "store_b_db"
